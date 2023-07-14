@@ -54,8 +54,8 @@
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="form-group">
-                                    <label for="bahan_bakar">Bahan Bakar</label>
-                                    <input type="text" id="bahan_bakar" class="form-control" placeholder="Masukkan Bahan Bakar" name="bahan_bakar" required value="{{ $data->bahan_bakar }}">
+                                    <label for="bbm">Bahan Bakar</label>
+                                    <input type="text" id="bbm" class="form-control" placeholder="Masukkan Bahan Bakar" name="bbm" required value="{{ $data->bbm}}">
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">

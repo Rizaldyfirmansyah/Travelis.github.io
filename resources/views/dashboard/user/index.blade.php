@@ -4,7 +4,7 @@
 @section('content')
 
 <div class="page-heading">
-    <h3>User</h3>
+    <h3>Customer</h3>
 </div>
 <div class="page-content">
     <section class="row">

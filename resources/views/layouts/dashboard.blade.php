@@ -26,7 +26,7 @@
                     <div class="d-flex justify-content-between">
                         <div class="logo">
                             <a href="{{ route('cars.index') }}">
-                                Rental Mobil Metro
+                                Sjabar Rent
                             </a>
                         </div>
                         <div class="toggler">
@@ -91,7 +91,7 @@
                         <li class="sidebar-item {{ request()->routeIs('user.*') ? 'active' : ''}}">
                             <a href="{{ route('user.index') }}" class='sidebar-link'>
                                 <i class="fas fa-users"></i>
-                                <span>User</span>
+                                <span>Customer</span>
                             </a>
                         </li>
 
@@ -131,11 +131,11 @@
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
-                        <p>2023 &copy; sukun</p>
+                        <p>2023 &copy; BIMS</p>
                     </div>
                     <div class="float-end">
                         <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
-                                href="https://jokopurnomo.my.id">Rizaldy Firmansyah</a></p>
+                                href="https://jokopurnomo.my.id">Bima Pangestu N</a></p>
                     </div>
                 </div>
             </footer>

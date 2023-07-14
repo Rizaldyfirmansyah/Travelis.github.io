@@ -32,7 +32,7 @@ class CarsController extends Controller
         $data->gambar_mobil = pathinfo($gmbr_mobil)['basename'];
 
         $data->harga_sewa = $request->harga_sewa;
-        $data->bahan_bakar = $request->bahan_bakar;
+        $data->bbm = $request->bbm;
         $data->keterangan = $request->keterangan;
         $data->tahun_pembuatan = $request->tahun_pembuatan;
         $data->tenaga = $request->tenaga;
@@ -54,7 +54,7 @@ class CarsController extends Controller
     public function update(Request $request, $id)
     {
         $data = Cars::find($id);
-        $data->merk_id = $request->merk_mobil;
+        $data->merk_mobil = $request->merk_mobil;
         $data->nama_mobil = $request->nama_mobil;
         $data->no_polisi = $request->no_polisi;
 
@@ -64,7 +64,7 @@ class CarsController extends Controller
         }
 
         $data->harga_sewa = $request->harga_sewa;
-        $data->bahan_bakar = $request->bahan_bakar;
+        $data->bbm = $request->bbm;
         $data->keterangan = $request->keterangan;
         $data->tahun_pembuatan = $request->tahun_pembuatan;
         $data->tenaga = $request->tenaga;

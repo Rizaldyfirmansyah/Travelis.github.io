@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Rental Mobil Bumiayu</title>
+    <title>Sjabar Rent</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendors/bootstrap-icons/bootstrap-icons.css') }}">
@@ -21,7 +21,7 @@
                 <div id="auth-left">
                     <div class="auth-logo">
                         <a href="/">
-                            <h3>Rental Mobil Bumiayu</h3>
+                            <h3>Sjabar Rent</h3>
                         </a>
                     </div>
                     <h1 class="auth-title">Masuk.</h1>
@@ -48,6 +48,13 @@
                             </div>
                         </div>
                         <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
+                        <div class="flex items-center justify-end mt-4">
+                @if (Route::has('password.request'))
+                    <a class="underline text-sm text-blue-600 hover:text-blue-900" href="{{ route('password.request') }}">
+                        {{ __('Forgot your password?') }}
+                    </a>
+                @endif  
+            </div>
                     </form>
                     <div class="text-center mt-5 text-lg fs-4">
                         <p class="text-gray-600">

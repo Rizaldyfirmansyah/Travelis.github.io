@@ -20,7 +20,7 @@ class CreateCarsTable extends Migration
             $table->string('no_polisi')->nullable();
             $table->string('gambar_mobil')->nullable();
             $table->string('harga_sewa')->nullable();
-            $table->string('bahan_bakar')->nullable();
+            $table->string('bbm')->nullable();
             $table->text('keterangan')->nullable();
             $table->string('status_mobil')->nullable()->default(0);
             $table->string('tahun_pembuatan')->nullable();

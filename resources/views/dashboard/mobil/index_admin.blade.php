@@ -55,7 +55,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">{{ $item->nama_mobil }}</h5>
                                         <p class="card-text">
-                                            Bahan Bakar : {{ $item->bahan_bakar }}
+                                            Bahan Bakar: {{ $item->bbm }}
                                         </p>
                                         <p class="">
                                             Biaya Sewa : {{ $item->harga_sewa }}
@@ -179,7 +179,7 @@
                             </tr>
                             <tr>
                                 <td class="text-bold-500">Bahan Bakar</td>
-                                <td class="text-bold-500">${res.data.bahan_bakar}</td>
+                                <td class="text-bold-500">${res.data.bbm}</td>
                             </tr>
                             <tr>
                                 <td class="text-bold-500">Tenaga</td>
